@@ -68,54 +68,71 @@ a:hover{
     color: blue;
 }
 li a{
-    display: block;
+    /* display: block; */
     height: 40px;
     text-align: center;
+    /* padding: 10px 28px; */
+}
+.navbar-link{
+    display: block;
     padding: 10px 28px;
 }
-/* Ẩn menu level 1,2 */
-.sub-menu-level-1{
-    display: none;
 
+.navbar-pages{
+    width: 550px;
+    height: auto;
     position: absolute;
-    left: -40%;
+    left: -200px;
+
+    font-family: HKGroteskPro;
+    font-size: 90%;
+    /* color */
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(22,28,45,.15);
+}
+.col-menu{
+    float:left;
+    width: 25%;
+    height: auto;
+}
+
+.dropdown-item{
+    padding: 0 20px;
+    width: auto;
+}
+
+.navbar-account{
     width: 200px;
     border-radius: 2px;
+    display: none;
 
     /* font */
     font-family: HKGroteskPro;
-    font-size: 90%;
-
     /* color */
     background-color: #fff;
     box-shadow: 0px 0px 20px rgba(22,28,45,.15);
 }
 
+.sub-menu-level-1{
+    position: absolute;
+    left: -40%;
+    font-size: 90%;
+}
 /* tạo 1 cái display cha của sub-menu-level-2*/
 .sub-menu-level-1 ul li{
     position: relative;
 }
 .sub-menu-level-2{
-    display: none;
-
     position: absolute;
     top: 0;
     left: 100%;
-    width: 200px;
-    border-radius: 2px;
-    
-    font-family: HKGroteskPro;
-    background-color: #fff;
-    box-shadow: 0px 0px 20px rgba(22,28,45,.15);
 }
-
 /* căn trái cho thẻ a của submenu */
 .menu ul li a{
     text-align: left;
     height: 35px;
     padding: 5px 28px;
 }
-
 /* Hiển thị sub menu level 1,2 */
 .menu>li:hover>div{
     display: block;
