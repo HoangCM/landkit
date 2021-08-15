@@ -51,8 +51,9 @@ a:hover{
     background-color: #335eea;
     color: #fff;
     margin-left: auto;
-    padding: 13px 10px;
+    padding: 13px 16px;
     border-radius: 5px;
+    font-family: sans-serif;
 }
 .narbar-img{
     display:flex;
@@ -369,4 +370,67 @@ li a{
 }
 .img-contain-1{
     max-width: 130%;
+}
+
+.sub-contain-2{
+    /* height: 180px;     */
+    width: 100%;
+    padding: 96px 0;
+    clear: left;
+    font-family: sans-serif;
+}
+.col-3{
+    width: 33%;
+    padding: 0 20px;
+}
+.sub-contain-2 h3{
+    font-weight: 100;
+    line-height: 1.4;
+    font-size: 1.3em;
+}
+.icon-2{
+    display: inline;
+    font-size: 34px;
+    margin-bottom: 12px;
+    color: #869ab8!important;
+    width: auto;
+}
+.text-gray{
+    font-family: sans-serif;
+    color: #869ab8!important;
+    line-height: 1.6;
+}
+
+.sub-contain-3{
+    /* height: 180px;     */
+    width: 100%;
+    padding: 96px 0 0 0;
+    clear: left;
+    font-family: sans-serif;
+    background-image: linear-gradient(180deg,#f9fbfd 0,#fff);
+}
+.col-card-1{
+    width: 40%;
+    padding: 0 20px;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 32px;
+    color: #869ab8!important;
+
+    background-color: #fff;
+}
+.form-floating{
+    position: relative;
+}
+.card-input{
+    width: 100%;
+    padding: 16px 0;
+    border: 1px solid #f1f4f8;
+    border-width: 0 0 1px;
+}
+.mt-32{
+    margin-top: 32px;
 }
